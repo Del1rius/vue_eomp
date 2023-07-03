@@ -1,5 +1,17 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+
   </div>
 </template>
+<script>
+export default {
+
+}
+</script>
+
+<style>
+.about {
+  background-color: #008080;
+  min-height: 100vh;
+}
+</style>
