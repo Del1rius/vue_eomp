@@ -14,9 +14,13 @@ export default {
 }
 </script>
 <style scoped>
-div {
-    padding: 30px;
+.nav {
+    padding: 10px;
     background-color: black;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
 }
 
 a {
@@ -25,8 +29,8 @@ a {
     color: black;
     text-align: center;
     font-size: 25px;
-    padding: 20px;
-    margin: 20px;
+    padding: 10px;
+    margin: 10px;
     border: 2px solid white;
     border-radius: 10px;
 }
