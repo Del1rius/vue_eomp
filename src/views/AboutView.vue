@@ -1,11 +1,10 @@
 <template>
-  <div class="about">
-
-  </div>
+  <AboutComp/>
 </template>
 <script>
+import AboutComp from '@/components/About-Comp.vue';
 export default {
-
+ components: {AboutComp}
 }
 </script>
 
