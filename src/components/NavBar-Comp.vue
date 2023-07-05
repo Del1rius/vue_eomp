@@ -41,5 +41,10 @@ a:hover {
     border: 2px solid white;
     border-radius: 10px;
 }
-    
+a.router-link-active {
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+}
 </style>

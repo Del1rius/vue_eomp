@@ -4,13 +4,14 @@
 <script>
 import AboutComp from '@/components/About-Comp.vue';
 export default {
+<<<<<<< HEAD
  components: {AboutComp}
+=======
+  components: {AboutComp}
+>>>>>>> origin/aboutPage
 }
 </script>
 
-<style>
-.about {
-  background-color: #008080;
-  min-height: 100vh;
-}
+<style scoped>
+
 </style>

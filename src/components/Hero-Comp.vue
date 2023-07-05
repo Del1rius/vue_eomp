@@ -1,8 +1,8 @@
 <template >
     <div class="homes">
-        <h2 class="display-2 text-center text-white">Timothy Barry</h2>
-        <p class="text-center text-white fs-3">An Aspiring Web Developer</p>
-        <a href="../views/AboutView.vue"><button type="button" class="fs-4 text-white p-1">Find out more</button></a>
+        <h2 class="display-2 text-center text-white animate__animated animate__pulse animate__infinite">Timothy Barry</h2>
+        <p class="text-center text-white fs-3 animate__animated animate__pulse animate__infinite">An Aspiring Web Developer</p>
+        <a href="/about"><button type="button" class="fs-4 text-white p-1 animate__animated animate__pulse animate__infinite">Find out more</button></a>
     </div>
 </template>
 <script>
