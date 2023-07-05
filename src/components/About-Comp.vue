@@ -40,40 +40,50 @@
     <div class="skills mt-2 mx-auto">
     <h2 class="display-3 text-center text-white ">Skills:</h2>
     <div class="row">
-        <div class="col-4"><i class="fa-brands fa-html5 fa-beat-fade fa-3x" style="color: #000000;"></i></div>
+        <div class="col-4 mt-2"><i class="fa-brands fa-html5 fa-beat-fade fa-3x" style="color: #000000;"></i></div>
         <div class="col-8 my-auto"><div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
             <div class="progress-bar progress-bar-striped progress-bar-animated fs-5" style="width: 95%"></div>
         </div>
     </div>
     </div>
     <div class="row">
-        <div class="col-4"><i class="fa-brands fa-css3-alt fa-beat-fade fa-3x" style="color: #000000;"></i></div>
+        <div class="col-4 mt-2"><i class="fa-brands fa-css3-alt fa-beat-fade fa-3x" style="color: #000000;"></i></div>
         <div class="col-8 my-auto"><div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
             <div class="progress-bar progress-bar-striped progress-bar-animated fs-5" style="width: 83%"></div>
         </div>
     </div>
     </div>
     <div class="row">
-        <div class="col-4"><i class="fa-brands fa-bootstrap fa-beat-fade fa-3x" style="color: #000000;"></i></div>
+        <div class="col-4 mt-2"><i class="fa-brands fa-bootstrap fa-beat-fade fa-3x" style="color: #000000;"></i></div>
         <div class="col-8 my-auto"><div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
             <div class="progress-bar progress-bar-striped progress-bar-animated fs-5" style="width: 85%"></div>
         </div>
     </div>
     </div>
     <div class="row">
-        <div class="col-4"><i class="fa-brands fa-square-js fa-beat-fade fa-3x" style="color: #000000;"></i></div>
+        <div class="col-4 mt-2"><i class="fa-brands fa-square-js fa-beat-fade fa-3x" style="color: #000000;"></i></div>
         <div class="col-8 my-auto"><div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
             <div class="progress-bar progress-bar-striped progress-bar-animated fs-5" style="width: 80%"></div>
         </div>
     </div>
     </div>
     <div class="row">
-        <div class="col-4"><i class="fa-brands fa-vuejs fa-beat-fade fa-3x" style="color: #000000;"></i></div>
+        <div class="col-4 mt-2"><i class="fa-brands fa-vuejs fa-beat-fade fa-3x" style="color: #000000;"></i></div>
         <div class="col-8 my-auto"><div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
             <div class="progress-bar progress-bar-striped progress-bar-animated fs-5" style="width: 75%"></div>
         </div>
     </div>
     </div>
+    <div class="row">
+        <div class="col-4 mt-2"><i class="fa-brands fa-github fa-beat-fade fa-3x" style="color: #000000;"></i></div>
+        <div class="col-8 my-auto"><div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar progress-bar-striped progress-bar-animated fs-5" style="width: 90%"></div>
+        </div>
+    </div>
+    </div>
+  </div>
+  <div class="educations mt-3">
+    <h2 class="display-3 text-center text-white education">Education:</h2>
   </div>
   </div>
 </template>
@@ -112,4 +122,10 @@ h2 {
     border-radius: 25px;
     width: 1250px;
 }
+.education {
+    border: 4px solid white;
+    border-radius: 25px;
+    padding: 20px;
+}
+
 </style>
