@@ -10,7 +10,7 @@
         />
       </div>
     <div class="row">
-        <div class="col-4 mx-auto mt-2 p-2">
+        <div class="col-4 mx-auto mt-2 p-2 animate__animated animate__backInLeft animate__delay-1s">
             <div class="borders p-2">
                 <h3 class="display-6 text-center text-white me-2">Bio:</h3>
                 <p class="fs-3 text-white text-center me-2">
@@ -20,7 +20,7 @@
                 </p>
             </div>
         </div>
-        <div class="col-4 mx-auto mt-2 p-2">
+        <div class="col-4 mx-auto mt-2 p-2 animate__animated animate__backInRight animate__delay-1s">
             <div class="borders p-2">
                 <h3 class="display-6 text-center text-white me-2">Personal Information:</h3>
                 <ul class="list-unstyled fs-4 text-center text-white">
@@ -41,6 +41,13 @@
     <h2 class="display-3 text-center text-white ">Skills:</h2>
     <div class="row">
         <div class="col-2"><i class="fa-brands fa-html5 fa-beat-fade fa-3x" style="color: #000000;"></i></div>
+        <div class="col-10 my-auto"><div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar progress-bar-striped progress-bar-animated fs-5" style="width: 100%">100%</div>
+        </div>
+    </div>
+    </div>
+    <div class="row">
+        <div class="col-2"><i class="fa-brands fa-css3-alt fa-beat-fade fa-3x" style="color: #000000;"></i></div>
         <div class="col-10 my-auto"><div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
             <div class="progress-bar progress-bar-striped progress-bar-animated fs-5" style="width: 100%">100%</div>
         </div>
