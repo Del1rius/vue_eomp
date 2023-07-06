@@ -10,17 +10,18 @@ export default createStore({
     }
   },
   actions: {
-    async fetchProjects (context) {
+    async fetchProjects(context){
       try {
-        let res = await fetch("https://del1rius.github.io/Data/projects.json");
-        let {projects} = await res.json();
+        let { projects } = await (
+          await fetch("https://del1rius.github.io/Data/projects.json")
+        ).json();
         if (projects) {
-          context.commit("setProjects", projects)
+          context.commit("setProjects", projects);
         } else {
-          context.commit("setProjects", projects)
+          alert("ERROR");
         }
-      } catch(e) {
-        console.log(e)
+      } catch (e) {
+        console.error(error);
       }
     }
 }
