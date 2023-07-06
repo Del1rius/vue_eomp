@@ -51,9 +51,9 @@ a.router-link-active {
 <template>
   <nav class="navbar navbar-expand-lg fixed-top p-0">
     <div class="container-fluid bg-transparent p-2 m-3">
-      <a class="navbar-brand" href="/">
+      <!-- <a class="navbar-brand" href="/">
         <img src="https://i.postimg.cc/HjDqs5xg/logo2-removebg-preview.png`" alt="logo">
-    </a>
+    </a> -->
     <input type="checkbox" id="active" />
     <label for="active" class="menu-btn"><span></span></label>
     <label for="active" class="close"></label>
@@ -64,6 +64,7 @@ a.router-link-active {
         <li><router-link to="/resume">Resume</router-link></li>
         <li><router-link to="/projects">Projects</router-link></li>
         <li><router-link to="/testimonials">Testimonials</router-link></li>
+        <li><router-link to="/contact">Contact</router-link></li>
       </ul>
     </div>
     </div>
@@ -211,6 +212,12 @@ input[type="checkbox"] {
   transition-timing-function: ease, cubic-bezier(0.1, 1.3, 0.3, 1);
   transition-delay: 0.6s;
   transform: translateX(-100px);
+}
+ a:hover {
+  color: black !important;
+}
+a-active {
+  color: black !important;
 }
 @media (max-width: 600px) {
   .wrapper ul {

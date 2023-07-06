@@ -12,7 +12,7 @@ export default createStore({
   actions: {
     async fetchProjects (context) {
       try {
-        let res = await fetch(" https://del1rius.github.io/Data/projects.json");
+        let res = await fetch("https://del1rius.github.io/Data/projects.json");
         let {projects} = await res.json();
         if (projects) {
           context.commit("setProjects", projects)

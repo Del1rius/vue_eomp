@@ -5,7 +5,7 @@
     :project="project"
     class="col-6 col-md-4 mb-5 col-12 col-md-4 mx-auto d-flex justify-content-center"
   >
-    <div>
+    <div class="projects">
       <div class="col-4">
         <div>
           <div class="card mx-auto" style="width: 18rem">
@@ -18,7 +18,7 @@
             <div class="card-body">
               <h5 class="card-title">{{ project.name }}</h5>
               <p class="card-text">
-                {{ projects.desc }}
+                {{ project.desc }}
               </p>
               <a :href="project.github" target="blank" class="btn btn-black text-white"
                 >GitHub</a
