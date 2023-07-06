@@ -1,43 +1,53 @@
 <template >
-    <div class="container-fluid projects">
-        <div class="row">
-        <div class="col-4 project mt-4">
-            <iframe src="https://gamesring.netlify.app" frameborder="0" class="i-frame"></iframe>
+    <div
+    v-for="project in projects"
+    :key="project.id"
+    :project="project"
+    class="col-6 col-md-4 mb-5 col-12 col-md-4 mx-auto d-flex justify-content-center"
+  >
+    <div>
+      <div class="col-4">
+        <div>
+          <div class="card mx-auto" style="width: 18rem">
+            <img
+              :src="project.img"
+              id="img2"
+              class="card-img-top"
+              :alt="project.name"
+            />
+            <div class="card-body">
+              <h5 class="card-title">{{ project.name }}</h5>
+              <p class="card-text">
+                {{ projects.desc }}
+              </p>
+              <a :href="project.github" target="blank" class="btn btn-black text-white"
+                >GitHub</a
+              >
+              <a
+                :href="project.netlify"
+                target="blank"
+                class="btn btn-black text-white mx-3"
+                id="btn"
+                >Live</a
+              >
+            </div>
+          </div>
         </div>
-        <div class="col-4 project mt-4">
-            <iframe src="https://timothys-calculator.netlify.app" frameborder="0" class="i-frame"></iframe>
-        </div>
-        <div class="col-4 project mt-4">
-            <iframe src="https://timothys-bmi-calculator.netlify.app" frameborder="0" class="i-frame"></iframe>
-        </div>
-        <div class="row">
-            <div class="col-4 project mt-4">
-            <iframe src="https://timothys-temp-converter.netlify.app" frameborder="0" class="i-frame"></iframe>
-        </div>
-        <div class="col-4 project mt-4">
-            <iframe src="https://timothys-todo-app.netlify.app" frameborder="0" class="i-frame"></iframe>
-        </div>
-        <div class="col-4 project mt-4">
-            <iframe src="https://group-array-exercise.netlify.app" frameborder="0" class="i-frame"></iframe>
-        </div>
-        </div>
-        <div class="row">
-            <div class="col-4 project mt-4">
-            <iframe src="https://group-ecommerce-site.netlify.app" frameborder="0" class="i-frame"></iframe>
-        </div>
-        <div class="col-4 project mt-4">
-            <iframe src="https://timothys-alienware-store.netlify.app" frameborder="0" class="i-frame"></iframe>
-        </div>
-        <div class="col-4 project mt-4">
-            <iframe src="https://timothybarrys-portfolio.netlify.app" frameborder="0" class="i-frame"></iframe>
-        </div>
-        </div>
+      </div>
     </div>
-    </div>
+  </div>
 </template>
 <script>
 export default {
-    
+    computed: {
+        projects () {
+            return this.$store.state.projects
+        }
+    },
+
+    mounted() {
+        this.$store.dispatch("fetchProjects")
+    }
 }
 </script>
 <style scoped>
