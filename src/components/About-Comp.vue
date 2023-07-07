@@ -50,54 +50,6 @@
             </div>
         </div>
     </div>
-    <div class="skills mt-2 mx-auto">
-    <h2 class="display-3 text-center">Skills:</h2>
-    <div class="row">
-        <div class="col-4 mt-2"><i class="fa-brands fa-html5 fa-beat-fade fa-3x" style="color: #000000;"></i></div>
-        <div class="col-8 my-auto"><div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-            <div class="progress-bar progress-bar-striped progress-bar-animated fs-5" style="width: 95%">Expert</div>
-        </div>
-    </div>
-    </div>
-    <div class="row">
-        <div class="col-4 mt-2"><i class="fa-brands fa-css3-alt fa-beat-fade fa-3x" style="color: #000000;"></i></div>
-        <div class="col-8 my-auto"><div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-            <div class="progress-bar progress-bar-striped progress-bar-animated fs-5" style="width: 83%">Advanced</div>
-        </div>
-    </div>
-    </div>
-    <div class="row">
-        <div class="col-4 mt-2"><i class="fa-brands fa-bootstrap fa-beat-fade fa-3x" style="color: #000000;"></i></div>
-        <div class="col-8 my-auto"><div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-            <div class="progress-bar progress-bar-striped progress-bar-animated fs-5" style="width: 85%">Advanced</div>
-        </div>
-    </div>
-    </div>
-    <div class="row">
-        <div class="col-4 mt-2"><i class="fa-brands fa-square-js fa-beat-fade fa-3x" style="color: #000000;"></i></div>
-        <div class="col-8 my-auto"><div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-            <div class="progress-bar progress-bar-striped progress-bar-animated fs-5" style="width: 80%">Advanced</div>
-        </div>
-    </div>
-    </div>
-    <div class="row">
-        <div class="col-4 mt-2"><i class="fa-brands fa-vuejs fa-beat-fade fa-3x" style="color: #000000;"></i></div>
-        <div class="col-8 my-auto"><div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-            <div class="progress-bar progress-bar-striped progress-bar-animated fs-5" style="width: 75%">Intermediate</div>
-        </div>
-    </div>
-    </div>
-    <div class="row">
-        <div class="col-4 mt-2"><i class="fa-brands fa-github fa-beat-fade fa-3x" style="color: #000000;"></i></div>
-        <div class="col-8 my-auto"><div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-            <div class="progress-bar progress-bar-striped progress-bar-animated fs-5" style="width: 90%">Expert</div>
-        </div>
-    </div>
-    </div>
-  </div>
-  <div class="educations mt-3">
-    <h2 class="display-3 text-center text-white education">Education:</h2>
-  </div>
   </div>
 </template>
 <script>
@@ -132,32 +84,6 @@ export default {};
 
 h2 {
     margin-bottom: 0;
-}
-.progress-bar {
-    background-color: black;
-    border: 2px solid black;
-}
-.progress {
-    width: 80%;
-}
-.skills {
-    margin: 0;
-    border: 3px solid white;
-    border-radius: 25px;
-    width: 1250px;
-    color: white;
-}
-
-.skills:hover {
-    background-color: white;
-    transition: 0.5s ease-in;
-    color: #008080;
-    border: 3px solid black;
-}
-.education {
-    border: 4px solid white;
-    border-radius: 25px;
-    padding: 20px;
 }
 a {
     text-decoration: none;
