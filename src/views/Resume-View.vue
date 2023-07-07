@@ -19,7 +19,7 @@
             aria-valuemax="100"
           >
             <div
-              class="progress-bar progress-bar-striped progress-bar-animated"
+              class="progress-bar progress-bar-striped progress-bar-animated fs-4 "
               style="width: 95%"
             >
               Expert
@@ -44,7 +44,7 @@
             aria-valuemax="100"
           >
             <div
-              class="progress-bar progress-bar-striped progress-bar-animated"
+              class="progress-bar progress-bar-striped progress-bar-animated fs-4"
               style="width: 83%"
             >
               Advanced
@@ -69,7 +69,7 @@
             aria-valuemax="100"
           >
             <div
-              class="progress-bar progress-bar-striped progress-bar-animated"
+              class="progress-bar progress-bar-striped progress-bar-animated fs-4"
               style="width: 85%"
             >
               Advanced
@@ -94,7 +94,7 @@
             aria-valuemax="100"
           >
             <div
-              class="progress-bar progress-bar-striped progress-bar-animated"
+              class="progress-bar progress-bar-striped progress-bar-animated fs-4"
               style="width: 80%"
             >
               Advanced
@@ -119,7 +119,7 @@
             aria-valuemax="100"
           >
             <div
-              class="progress-bar progress-bar-striped progress-bar-animated"
+              class="progress-bar progress-bar-striped progress-bar-animated fs-4"
               style="width: 75%"
             >
               Intermediate
@@ -144,7 +144,7 @@
             aria-valuemax="100"
           >
             <div
-              class="progress-bar progress-bar-striped progress-bar-animated"
+              class="progress-bar progress-bar-striped progress-bar-animated fs-4"
               style="width: 90%"
             >
               Expert
@@ -165,7 +165,7 @@
           <div class="flag-wrapper">
             <span class="flag">Life Choices Academy</span>
             <span class="time-wrapper"
-              ><span class="time">April 2023 - present</span></span
+              ><span class="time text-black">April 2023 - present</span></span
             >
           </div>
           <div class="desc text-white fs-5">
@@ -180,7 +180,7 @@
           <div class="flag-wrapper">
             <span class="flag">Groote Schuur High School</span>
             <span class="time-wrapper"
-              ><span class="time">2017 - 2021</span></span
+              ><span class="time text-black">2017 - 2021</span></span
             >
           </div>
           <div class="desc text-white fs-5">
@@ -195,7 +195,7 @@
           <div class="flag-wrapper">
             <span class="flag">John Graham Primary</span>
             <span class="time-wrapper"
-              ><span class="time">2013 - 2016</span></span
+              ><span class="time text-black">2013 - 2016</span></span
             >
           </div>
           <div class="desc text-white fs-5">
@@ -217,10 +217,11 @@ export default {};
 .progress-bar {
   background-color: black;
   border: 2px solid black;
-  font-size: 15px;
 }
 .progress {
   width: 80%;
+  height: 30px;
+
 }
 .skills {
   margin: 0;
@@ -242,6 +243,7 @@ export default {};
   padding: 20px;
   width: 1250px;
 }
+/* timeline from codepen */
 .timeline {
   position: relative;
   width: 660px;
@@ -335,7 +337,6 @@ export default {};
 .flag-wrapper {
   position: relative;
   display: inline-block;
-
   text-align: center;
 }
 
@@ -345,9 +346,9 @@ export default {};
   background: rgb(248, 248, 248);
   padding: 6px 10px;
   border-radius: 5px;
-
   font-weight: 600;
   text-align: left;
+  color: #008080 !important;
 }
 
 .direction-l .flag {
