@@ -12,7 +12,7 @@
                 :alt="testimonial.name"
               />
               <div class="card-body">
-                <h5 class="card-title fs-3">{{ testimonial.name }}</h5>
+                <h5 class="card-title fs-3 text-white">{{ testimonial.name }}</h5>
                 <p class="card-text fs-5">
                   {{ testimonial.testimonial }}
                 </p>
@@ -43,7 +43,7 @@ export default {
 }   
 
 .card {
-  max-height: 80vh;
+  min-height: 80vh;
   background-color: black;
   border: 3px solid white;
   border-radius: 25px;
