@@ -1,7 +1,7 @@
 <template>
   <div class="project">
     <div class="row ">
-      <div v-for="project in projects" :key="project.id" class="col-4 mb-4">
+      <div v-for="project in projects" :key="project.id" class="col-4 mt-4  mb-4">
         <div class="projects">
           <div>
             <div class="card mx-auto" style="width: 18rem">
@@ -16,13 +16,13 @@
                 <p class="card-text">
                   {{ project.desc }}
                 </p>
-                <a :href="project.github" target="blank" class="btn fs-5"
+                <a :href="project.github" target="blank" class="btn fs-5 mt-5"
                   >GitHub</a
                 >
                 <a
                   :href="project.netlify"
                   target="blank"
-                  class="btn mx-3 fs-5"
+                  class="btn mx-3 fs-5 mt-5"
                   id="btn"
                   >Live</a
                 >
@@ -69,6 +69,13 @@ export default {
   border: 3px solid white;
   border-radius: 25px;
   min-height: 50vh !important;
+  transition: 0.5s ease-in;
+}
+.card:hover {
+  background-color: white;
+  color: black;
+  transition: 0.5s ease-in;
+  border: 3px solid black;
 }
 img {
   border-radius: 25px;
