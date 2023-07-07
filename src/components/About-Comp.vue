@@ -4,7 +4,7 @@
     <div class="row">
       <div class="col-6 mb-4 my-auto mx-auto p-2 animate__animated animate__backInLeft animate__delay-1s">
         <img
-          src="https://i.postimg.cc/8z64GRXv/C12-Timothy-Barry-1.jpg"
+          src="https://i.postimg.cc/cJjtQ3Kv/C12-Timothy-Barry-1.jpg"
           alt="timothy"
           class="me "
         />
