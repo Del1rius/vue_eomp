@@ -2,7 +2,7 @@
     <div class="homes">
         <h2 class="display-2 text-center text-white animate__animated animate__pulse animate__infinite">Timothy Barry</h2>
         <p class="text-center text-white fs-3 animate__animated animate__pulse animate__infinite">An Aspiring Web Developer</p>
-        <a href="/about"><button type="button" class="fs-4 text-white p-1 animate__animated animate__pulse animate__infinite">Find out more</button></a>
+        <a href="/about"><button type="button" class="fs-4 text-white p-1 animate__animated animate__pulse animate__infinite">More About Me</button></a>
     </div>
 </template>
 <script>
@@ -51,5 +51,6 @@ button:hover {
     background-color: black;
     color: #008080 !important;
     font-weight: bold;
+    transition: 0.3s ease-in;
 }
 </style>

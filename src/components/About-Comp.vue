@@ -29,7 +29,7 @@
     <div class="row">
         <div class="col-6 mx-auto mb-4 mt-4 p-2 animate__animated animate__backInLeft animate__delay-1s d-flex justify-content-center align-items-center">
             <div class="card p-2">
-                <h3 class="display-6 text-center me-2">Hobbies:</h3>
+                <h3 class="display-6 text-center me-2">Bio:</h3>
                 <div class="card-body">
                 <p class="fs-3 text-center me-2">
                 I am an aspiring web developer. I wish to learn as many new things as
@@ -55,42 +55,42 @@
     <div class="row">
         <div class="col-4 mt-2"><i class="fa-brands fa-html5 fa-beat-fade fa-3x" style="color: #000000;"></i></div>
         <div class="col-8 my-auto"><div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-            <div class="progress-bar progress-bar-striped progress-bar-animated fs-5" style="width: 95%"></div>
+            <div class="progress-bar progress-bar-striped progress-bar-animated fs-5" style="width: 95%">Expert</div>
         </div>
     </div>
     </div>
     <div class="row">
         <div class="col-4 mt-2"><i class="fa-brands fa-css3-alt fa-beat-fade fa-3x" style="color: #000000;"></i></div>
         <div class="col-8 my-auto"><div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-            <div class="progress-bar progress-bar-striped progress-bar-animated fs-5" style="width: 83%"></div>
+            <div class="progress-bar progress-bar-striped progress-bar-animated fs-5" style="width: 83%">Advanced</div>
         </div>
     </div>
     </div>
     <div class="row">
         <div class="col-4 mt-2"><i class="fa-brands fa-bootstrap fa-beat-fade fa-3x" style="color: #000000;"></i></div>
         <div class="col-8 my-auto"><div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-            <div class="progress-bar progress-bar-striped progress-bar-animated fs-5" style="width: 85%"></div>
+            <div class="progress-bar progress-bar-striped progress-bar-animated fs-5" style="width: 85%">Advanced</div>
         </div>
     </div>
     </div>
     <div class="row">
         <div class="col-4 mt-2"><i class="fa-brands fa-square-js fa-beat-fade fa-3x" style="color: #000000;"></i></div>
         <div class="col-8 my-auto"><div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-            <div class="progress-bar progress-bar-striped progress-bar-animated fs-5" style="width: 80%"></div>
+            <div class="progress-bar progress-bar-striped progress-bar-animated fs-5" style="width: 80%">Advanced</div>
         </div>
     </div>
     </div>
     <div class="row">
         <div class="col-4 mt-2"><i class="fa-brands fa-vuejs fa-beat-fade fa-3x" style="color: #000000;"></i></div>
         <div class="col-8 my-auto"><div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-            <div class="progress-bar progress-bar-striped progress-bar-animated fs-5" style="width: 75%"></div>
+            <div class="progress-bar progress-bar-striped progress-bar-animated fs-5" style="width: 75%">Intermediate</div>
         </div>
     </div>
     </div>
     <div class="row">
         <div class="col-4 mt-2"><i class="fa-brands fa-github fa-beat-fade fa-3x" style="color: #000000;"></i></div>
         <div class="col-8 my-auto"><div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-            <div class="progress-bar progress-bar-striped progress-bar-animated fs-5" style="width: 90%"></div>
+            <div class="progress-bar progress-bar-striped progress-bar-animated fs-5" style="width: 90%">Expert</div>
         </div>
     </div>
     </div>
@@ -166,5 +166,11 @@ a {
     color: black;
     padding: 5px;
     background-color: white;
+}
+
+a:hover {
+    background-color: #008080;
+    color: white;
+    transition: 0.3s ease-in;
 }
 </style>

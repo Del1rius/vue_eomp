@@ -12,8 +12,8 @@
                 :alt="testimonial.name"
               />
               <div class="card-body">
-                <h5 class="card-title">{{ testimonial.name }}</h5>
-                <p class="card-text">
+                <h5 class="card-title fs-3">{{ testimonial.name }}</h5>
+                <p class="card-text fs-5">
                   {{ testimonial.testimonial }}
                 </p>
               </div>
@@ -41,4 +41,21 @@ export default {
     min-height: 100vh;
     background-color: #008080;
 }   
+
+.card {
+  max-height: 80vh;
+  background-color: black;
+  border: 3px solid white;
+  border-radius: 25px;
+  color: #008080;
+}
+
+.card:hover {
+  background-color: #008080;
+  color: black;
+  transition: 0.5s ease-in;
+}
+img {
+  border-radius: 21px;
+}
 </style>
