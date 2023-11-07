@@ -43,9 +43,12 @@
             <div class="card p-2">
                 <h3 class="display-6 text-center me-2">Hobbies:</h3>
                 <p class="fs-3 text-center me-2 ">
-                I am an aspiring web developer. I wish to learn as many new things as
-                I possibly can. I am a very quick learner. If I find a topic I enjoy
-                or like I do as much possible research on it to educate myself.
+                Coding 🤖 <br>
+                Gaming 🎮 <br>
+                Watches ⌚ <br>
+                Cars 🏎️ <br>
+                Football ⚽ <br>
+                Anime 👽 <br>
                 </p>
             </div>
         </div>
