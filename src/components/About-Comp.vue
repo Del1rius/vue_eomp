@@ -16,8 +16,8 @@
                     <li>Name: Timothy Barry</li>
                     <li>Date of Birth: 28/11/2002</li>
                     <li>Gender: Male</li>
-                    <li>Location: Cape Town</li>
-                    <!-- <li>CellPhone Number: (+27)666 420 6969</li> -->
+                    <li>Location: Lansdowne, Cape Town</li>
+                    <li>Cellphone Number: 0818093412</li>
                     <li>Email Address: timothy.aidan.barry@gmail.com</li>
                     <li>Willing to Relocate: Yes</li>
                     <a href="https://github.com/Del1rius" target="_blank" class="text-decoration-none">My Github</a> &
