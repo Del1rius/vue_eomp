@@ -18,8 +18,7 @@
                     <li>Gender: Male</li>
                     <li>Location: Lansdowne, Cape Town</li>
                     <li>Cellphone Number: 0818093412</li>
-                    <li>Email Address: timothy.aidan.barry@gmail.com</li>
-                    <li>Willing to Relocate: Yes</li>
+                    <li>Email: timothy.aidan.barry@gmail.com</li>
                     <a href="https://github.com/Del1rius" target="_blank" class="text-decoration-none">My Github</a> &
                     <a href="https://www.linkedin.com/in/timothy-barry-82344b262/" target="_blank" class="text-decoration-none">My Linkedin</a>
                 </ul>
