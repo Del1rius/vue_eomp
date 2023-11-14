@@ -75,6 +75,10 @@ export default {
 };
 </script>
 <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@500&display=swap');
+li {
+    font-family: 'Bitter', serif;
+}
 img {
     width: 100px;
 }
