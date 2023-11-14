@@ -58,6 +58,15 @@
 export default {};
 </script>
 <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+p {
+  font-family: 'Abel', sans-serif !important;
+}
+
+li {
+  font-family: 'Abel', sans-serif !important;
+}
+  
 .about {
   background-color: #008080;
   min-height: 100vh;
