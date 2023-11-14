@@ -18,7 +18,7 @@
         <label for="message">Your Message:</label>
         </div>
         <div class="mb-2">
-        <textarea id="message" name="message" rows="4" cols="66" class="border rounded-3 fs-3" required></textarea><br><br>
+        <textarea id="message" name="message" rows="4" cols="60" class="border rounded-3 fs-3" required></textarea><br><br>
         </div>
         <div class="mb-2">
         <input type="submit" value="Submit" class="submit-btn fs-3">
