@@ -3,7 +3,7 @@
     <div class="row ">
       <div v-for="testimonial in testimonials" :key="testimonial.id" class="col-4 mt-4  mb-4">
         <div class="projects">
-          <div>
+          <div class="testy">
             <div class="card mx-auto" style="width: 18rem">
               <img
                 :src="testimonial.img"
@@ -46,8 +46,9 @@ export default {
 .card-text {
     font-family: 'Abel', sans-serif;   
 }
+    
 .card {
-  min-height: 500px !important;
+  min-height: 50rem !important;
   background-color: black;
   border: 3px solid white;
   border-radius: 25px;
