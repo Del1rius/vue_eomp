@@ -15,11 +15,13 @@ export default {
 
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@500&display=swap');
+  
 ::-webkit-scrollbar {
   display: none;
 }
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Bitter', serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
