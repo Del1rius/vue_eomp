@@ -37,13 +37,17 @@ export default {
 }
 </script>
 <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
 .testimonial {
     min-height: 100vh;
     background-color: #008080;
-}   
+}
 
+.card-text {
+    font-family: 'Abel', sans-serif;   
+}
 .card {
-  min-height: 80vh;
+  min-height: 90vh;
   background-color: black;
   border: 3px solid white;
   border-radius: 25px;
