@@ -47,7 +47,7 @@ export default {
     font-family: 'Abel', sans-serif;   
 }
 .card {
-  min-height: 90vh;
+  min-height: 500px;
   background-color: black;
   border: 3px solid white;
   border-radius: 25px;
