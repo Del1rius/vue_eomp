@@ -12,14 +12,13 @@ export default {
 </script>
 <style scoped>
 .homes {
-  background-image: url(https://i.postimg.cc/t4tv4Xf1/home-page.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   width: 100%;
   height: 100vh;
-  /* min-height: 100vh;
-  background-color: #008080; */
+  min-height: 100vh;
+  background-color: #008080;
 }
 h2 {
     position: absolute;
