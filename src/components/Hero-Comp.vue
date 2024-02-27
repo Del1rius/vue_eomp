@@ -12,6 +12,7 @@ export default {
 </script>
 <style scoped>
 .homes {
+  background-image: url("https://i.postimg.cc/wj6mGg24/test1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
