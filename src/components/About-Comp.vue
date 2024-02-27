@@ -6,7 +6,7 @@
         <img
           src="https://i.ibb.co/6svs9fQ/C12-Timothy-Barry-1.jpg"
           alt="timothy"
-          class="me "
+          class="me"
         />
       </div>
       <div class="col-6 mx-auto mb-4 mt-2 p-2 animate__animated animate__backInRight animate__delay-1s d-flex justify-content-center align-items-center">
@@ -73,17 +73,17 @@ li {
 }
 
 .me {
-  width: 500px;
+  max-width: 100%;
   border: 3px solid white;
   border-radius: 25px;
-  max-height: 385px !important;
+  max-height: 400px !important;
 }
 .card {
     background-color: #008080;
-    min-height: 375px !important;
+    min-height: 400px !important;
     border: 3px solid white;
     border-radius: 25px;
-    width: 500px;
+    width: 375px;
     color: white;
 }
 .card:hover {
